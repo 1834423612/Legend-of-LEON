@@ -10,6 +10,7 @@ public class WaterBallSpawner : MonoBehaviour
     public float spawnHeight = 10f;  // Height from which the objects will spawn
     public float moveSpeed = 5f;     // Speed at which the objects move downwards
     public float spawnInterval = 2f; // Time interval between spawns
+    public float minSpawnDistanceX = 1f; // Minimum horizontal distance from the player
 
     private void Start()
     {
@@ -20,8 +21,13 @@ public class WaterBallSpawner : MonoBehaviour
     {
         while (true)
         {
-            // Randomly determine the horizontal position within the specified range
+            // Randomly determine the horizontal position within the specified range, ensuring it is not too close to the player
             float spawnX = Random.Range(player.position.x - spawnRangeX, player.position.x + spawnRangeX);
+            if (Mathf.Abs(spawnX - player.position.x) < minSpawnDistanceX)
+            {
+                spawnX = player.position.x + Mathf.Sign(spawnX - player.position.x) * minSpawnDistanceX;
+            }
+
             Vector3 spawnPosition = new Vector3(spawnX, player.position.y + spawnHeight, 0f);
             GameObject spawnedObject = Instantiate(objectPrefab, spawnPosition, Quaternion.identity);
 

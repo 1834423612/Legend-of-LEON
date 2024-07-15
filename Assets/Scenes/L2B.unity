@@ -2440,6 +2440,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Leon
       objectReference: {fileID: 0}
+    - target: {fileID: 6980885013012217657, guid: b44c090052a7d1c4881c7cd06c75e50d, type: 3}
+      propertyPath: m_Size.x
+      value: 2.157444
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980885013012217657, guid: b44c090052a7d1c4881c7cd06c75e50d, type: 3}
+      propertyPath: m_Size.y
+      value: 3.0834534
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980885013012217657, guid: b44c090052a7d1c4881c7cd06c75e50d, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.01281929
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980885013012217657, guid: b44c090052a7d1c4881c7cd06c75e50d, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.011632323
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980885013012217657, guid: b44c090052a7d1c4881c7cd06c75e50d, type: 3}
+      propertyPath: m_AutoTiling
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
