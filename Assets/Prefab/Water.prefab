@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8087148364325871981}
   - component: {fileID: 741369660588795268}
   - component: {fileID: 7539272771849910740}
-  - component: {fileID: 970999138076285023}
+  - component: {fileID: 1599601732587354827}
   m_Layer: 0
   m_Name: Water
   m_TagString: Fireball
@@ -102,8 +102,8 @@ MonoBehaviour:
   playerHealthSignal: {fileID: 11400000, guid: 593d977dc34e7894c9ffc7e6d93360ab, type: 2}
   playerCurrentHealth: {fileID: 11400000, guid: 81c87e19990e5a94c83f0f49276e7054, type: 2}
   maxHealthforEnemy: {fileID: 11400000, guid: 6a852be83267c044cbda0801f838265f, type: 2}
---- !u!61 &970999138076285023
-BoxCollider2D:
+--- !u!68 &1599601732587354827
+EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -134,16 +134,28 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.14301223, y: -0.22247754}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.5, y: 2.5}
-    newSize: {x: 2.5, y: 2.5}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.6501708, y: 1.2312548}
+  m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.25, y: 0}
+  - {x: -0.41486487, y: -0.5446759}
+  - {x: -0.37561572, y: -0.54542273}
+  - {x: -0.37525523, y: -0.5839895}
+  - {x: -0.36518538, y: -0.5858844}
+  - {x: -0.3654408, y: -0.6248792}
+  - {x: -0.2848137, y: -0.62516487}
+  - {x: -0.28570732, y: -0.6646583}
+  - {x: -0.24524628, y: -0.66445404}
+  - {x: -0.24501593, y: -0.70536363}
+  - {x: -0.20551503, y: -0.70490164}
+  - {x: -0.20548524, y: -0.7455267}
+  - {x: -0.03484703, y: -0.74509853}
+  - {x: -0.035038896, y: -0.7049906}
+  - {x: 0.0051036444, y: -0.7052898}
+  - {x: 0.0053426535, y: -0.6649301}
+  - {x: 0.04367489, y: -0.6641752}
+  - {x: 1.25, y: 0}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
