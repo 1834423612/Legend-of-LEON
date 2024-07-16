@@ -75,6 +75,16 @@ crashlytics-build.properties
 
 # Custom Build & Other files
 /[Ww]eb[Gg][Ll] [Bb]uilds/*
+/[Pp][Cc] [Bb]uilds/*
+/[Ii]OS [Bb]uilds/*
+/[Aa]ndroid [Bb]uilds/*
+Android Builds_BurstDebugInformation_DoNotShip/*
+iOS Builds_BurstDebugInformation_DoNotShip/*
 connectwebgl.zip
 WebGL Builds.zip
 webgl_sharing
+
+# App build Certificate Key file
+user.keystore
+Assets/WSATestCertificate.pfx
+Assets/WSATestCertificate.pfx.meta
