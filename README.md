@@ -1,7 +1,7 @@
 # The Legend of Leon
 
 <div align="center">
-<img src="https://github.com/1834423612/The-Legend-of-LEON/raw/master/docs/main.png" align="center" height="" width="250" />
+<img src="https://github.com/1834423612/The-Legend-of-LEON/raw/master/docs/main.png" align="center" height="" width="450" />
 </div>  
 
 The Legend of Leon is an exciting 2D Unity game that follows the journey of a renowned hero who has already defeated a great evil demon. However, he soon realizes that he forgot to defeat an evil wizard who now poses a new threat. The evil wizard blackmails the main character, forcing him to confront him at his castle or face the consequences of his rampage.
